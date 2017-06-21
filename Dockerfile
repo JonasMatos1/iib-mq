@@ -126,5 +126,3 @@ EXPOSE 4414 7800 7883 1414 9443
 
 # Set entrypoint to run management script
 ENTRYPOINT ["iib_manage.sh"]
-
-docker run -it ibmcom/secure-gateway-client qkLKrUfGewy_prod_ng
